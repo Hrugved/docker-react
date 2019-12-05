@@ -6,4 +6,4 @@ before_install:
     - docker build -t hrugved/s07-stephen -f Dockerfile.dev .
 
 script:
-    - docker run -e CI=true hrugved/docker-react npm run test
+    - docker run -e CI=true Hrugved/docker-react npm run test
